@@ -1,7 +1,7 @@
-# Plan for _________ (name still pending)
+# Plan for Searchlight (name still pending)
 
 ## Overview
-________ is a top down game. The main purpose of the game is to find all of the targets in the dark. The player has a flashlight that shines light in a 360 degree angle around the player. The player can collect a powerup that can expand the circle of light (see *Powerups*).
+Searchlight is a top down game. The main purpose of the game is to find all of the targets in the dark. The player has a flashlight that shines light in a 360 degree angle around the player. The player can collect a powerup that can expand the circle of light (see *Powerups*).
 
 ## Game Mechanics
  - Moving by using the WASD keys
