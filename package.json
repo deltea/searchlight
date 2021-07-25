@@ -21,5 +21,7 @@
   "bugs": {
     "url": "https://github.com/thcheetah777/searchlight/issues/new?assignees=&labels=bug%2C+help+wanted&template=bug_report.md&title=BUG%3A+"
   },
-  "devDependencies": {}
+  "dependencies": {
+    "jshint": "^2.13.0"
+  }
 }
