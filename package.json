@@ -1,0 +1,25 @@
+{
+  "name": "lighthouse",
+  "version": "1.0",
+  "description": "Lighthouse is a bird's-eye view video game inspired by MoPOP in Seattle. The player has to track down of the listed targets in the dark, with only a short range flashlight.",
+  "homepage": "https://thcheetah777.github.io/lighthouse/",
+  "main": "js/script.js",
+  "keywords": [
+    "game",
+    "birds-eye-view",
+    "phaser",
+    "find-the-targets",
+    "phaserjs",
+    "phaser3-game"
+  ],
+  "author": "thcheetah777",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thcheetah777/lighthouse/"
+  },
+  "bugs": {
+    "url": "https://github.com/thcheetah777/searchlight/issues/new?assignees=&labels=bug%2C+help+wanted&template=bug_report.md&title=BUG%3A+"
+  },
+  "devDependencies": {}
+}
