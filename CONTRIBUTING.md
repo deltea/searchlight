@@ -47,7 +47,7 @@ Use the *Bug Report* template.
 ## Linters
 I installed a linter called JSHint. You can run the linter by typing into the terminal:
 ```
-node_modules/.bin/jshint data main scenes config.js script.js
+node_modules/.bin/jshint js
 ```
 P.S. Ignore the ES6 issues
 
