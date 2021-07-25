@@ -22,6 +22,7 @@
     "url": "https://github.com/thcheetah777/searchlight/issues/new?assignees=&labels=bug%2C+help+wanted&template=bug_report.md&title=BUG%3A+"
   },
   "dependencies": {
+    "grunt-cli": "^1.4.3",
     "jshint": "^2.13.0"
   }
 }
