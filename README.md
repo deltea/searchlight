@@ -1,4 +1,4 @@
-# :flashlight: Lighthouse (Not finished)
+# :flashlight: Searchlight (Not finished)
 
 Lighthouse, Inspired by [Hidden Folks](https://hiddenfolks.com/) in a exhibit of independent video games at [MoPop (Seattle)](https://www.mopop.org/)
 
