@@ -1,4 +1,4 @@
 // Create sprites
-create() {
+function create() {
 
 }

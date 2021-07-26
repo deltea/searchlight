@@ -1,9 +1,4 @@
 // Searchlight
-// Imports
-import "./preload.js";
-import "./create.js";
-import "./update.js";
-
 // Game objects
 let game = {};
 let stats = {};
@@ -16,7 +11,7 @@ const config = {
   // Size of game window
   scale: {
     autoCenter: Phaser.Scale.CENTER_BOTH,
-    mode: Phaser.Scale.FIT,
+    mode: Phaser.Scale.RESIZE,
   },
 
   // Arcade physics

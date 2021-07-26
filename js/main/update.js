@@ -1,4 +1,4 @@
 // Update animations and player movement
-update() {
+function update() {
 
 }

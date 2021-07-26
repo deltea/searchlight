@@ -1,5 +1,5 @@
 // Load media here
-preload() {
+function preload() {
   // Spritesheets
   this.load.spritesheet("characters", "assets/imgs/characters.png", {
     frameWidth: 16,
