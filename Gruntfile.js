@@ -1,6 +1,12 @@
 module.exports = function(grunt) {
   // Project configuration.
-  grunt.loadNpmTasks('grunt-contrib-jshint');
+  // Load JSHint
+  grunt.loadNpmTasks("grunt-contrib-jshint");
+
+  // Default build
+  grunt.registerTask("default", ["jshint"]);
+
+  // Configuration of tasks
   grunt.initConfig({
     pkg: grunt.file.readJSON("package.json"),
     jshint: {
