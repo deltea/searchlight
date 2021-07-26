@@ -1,4 +1,9 @@
 // Searchlight
+// Imports
+import "./preload.js";
+import "./create.js";
+import "./update.js";
+
 // Game objects
 let game = {};
 let stats = {};
