@@ -2,7 +2,7 @@
 
 Lighthouse, Inspired by [Hidden Folks](https://hiddenfolks.com/) in a exhibit of independent video games at [MoPop (Seattle)](https://www.mopop.org/)
 
-**Live Demo:** [thcheetah777.github.io/lighthouse](https://thcheetah777.github.io/lighthouse/)
+**Live Demo:** [thcheetah777.github.io/searchlight](https://thcheetah777.github.io/searchlight/)
 
 ## Description
 
@@ -16,14 +16,14 @@ Lighthouse is a bird's-eye view video game. The player has to track down of the 
 * Copy and enter this into the prompt
 
 ```bash
-git clone https://github.com/thcheetah777/lighthouse/
+git clone https://github.com/thcheetah777/searchlight/
 ```
 
 * Wait for it to unpack
 * After it's done cloning, enter
 
 ```bash
-cd lighthouse
+cd searchlight
 ```
 
 ### Running the game
@@ -42,7 +42,7 @@ or
 
 ## Contribution
 
-Read [CONTRIBUTING.md](https://github.com/thcheetah777/lighthouse/blob/master/CONTRIBUTING.md) for more info
+Read [CONTRIBUTING.md](https://github.com/thcheetah777/searchlight/blob/master/CONTRIBUTING.md) for more info
 
 ## Version History
 
@@ -50,7 +50,7 @@ None right now :disappointed:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/thcheetah777/lighthouse/blob/master/LICENSE.md) file for full details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/thcheetah777/searchlight/blob/master/LICENSE.md) file for full details
 
 ## Acknowledgments
 
