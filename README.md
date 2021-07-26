@@ -1,6 +1,6 @@
 # :flashlight: Lighthouse (Not finished)
 
-Lighthouse, Inspired by a exhibit of independent video games at [MoPop (Seattle)](https://www.mopop.org/)
+Lighthouse, Inspired by [Hidden Folks](https://hiddenfolks.com/) in a exhibit of independent video games at [MoPop (Seattle)](https://www.mopop.org/)
 
 **Live Demo:** [thcheetah777.github.io/lighthouse](https://thcheetah777.github.io/lighthouse/)
 
@@ -54,6 +54,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 ## Acknowledgments
 
-* Inspiration: [MoPop (Seattle)](https://www.mopop.org/)
+* Inspiration: [Hidden Folks](https://hiddenfolks.com/)
 * Music: [Video Game Music (Kirby)](https://downloads.khinsider.com/game-soundtracks/album/kirby-the-very-best-of-kirby)
 * Graphics: [Kenney.nl](https://kenney.nl/assets)
