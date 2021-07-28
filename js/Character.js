@@ -11,6 +11,19 @@ class Character {
 
     // An array of where the clothes are in the spritesheet
     this.clothesId = clothesId;
+
+    // Check which type of character the character is
+    switch (this.type) {
+      case "player":
+        this.target = false;
+        break;
+      case "target":
+        this.target = true;
+        break;
+      case "normal":
+        this.target = false;
+        break;
+    }
   }
 
   // Update characters, runs in the main update function
