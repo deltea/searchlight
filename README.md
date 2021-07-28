@@ -57,3 +57,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 * Inspiration: [Hidden Folks](https://hiddenfolks.com/)
 * Music: [Video Game Music (Kirby)](https://downloads.khinsider.com/game-soundtracks/album/kirby-the-very-best-of-kirby)
 * Graphics: [Kenney.nl](https://kenney.nl/assets)
+* Favicon: [Favicon.io](https://favicon.io/)
