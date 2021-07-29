@@ -1,6 +1,6 @@
 # Contributing
 ## Questions
-Please ask questions in the [discussions tab](https://github.com/thcheetah777/lighthouse/discussions). Label the discussion Q&A. If you have a bug or feature request, put it in an issue.
+Please ask questions in the [discussions tab](https://github.com/thcheetah777/searchlight/discussions). Label the discussion Q&A. If you have a bug or feature request, put it in an issue.
 
 ## Feedback
 I have made a [feedback discussion](https://github.com/thcheetah777/searchlight/discussions/5) for feedback.
