@@ -1,7 +1,7 @@
 // Create characters using this class
 class Character {
   // Initialize character
-  constructor(x, y, clothesId, spritesheet, type, group, phaser) {
+  constructor(x, y, clothesId, spritesheet, type, group, scale, phaser) {
     // Position of character
     this.x = x;
     this.y = y;
@@ -17,6 +17,9 @@ class Character {
 
     // Group of phaser sprites to add to
     this.group = group;
+
+    // How big the sprite is
+    this.scale = scale;
 
     // HACK: Pass in phaser
     this.phaser = phaser;
@@ -34,7 +37,7 @@ class Character {
     // Main code for character
     // Create character sprite with no Y-axis gravity
     this.sprite = this.group.create(x, y, this.spritesheet);
-    this.sprite.setScale(10);
+    this.sprite.setScale(this.scale);
     this.sprite.setGravityY(-config.physics.arcade.gravity.y);
 
     // The skin color
@@ -43,27 +46,27 @@ class Character {
 
     // Create the clothes
     // Pants
-    this.sprite.pants = this.phaser.add.image(x, y, this.spritesheet).setScale(10);
+    this.sprite.pants = this.phaser.add.image(x, y, this.spritesheet).setScale(this.scale);
     this.sprite.pants.setFrame(this.clothesId.pants);
 
     // Shirt
-    this.sprite.shirt = this.phaser.add.image(x, y, this.spritesheet).setScale(10);
+    this.sprite.shirt = this.phaser.add.image(x - 2, y + 3, this.spritesheet).setScale(this.scale);
     this.sprite.shirt.setFrame(this.clothesId.shirt);
 
     // Hair
-    this.sprite.hair = this.phaser.add.image(x, y, this.spritesheet).setScale(10);
+    this.sprite.hair = this.phaser.add.image(x, y, this.spritesheet).setScale(this.scale);
     this.sprite.hair.setFrame(this.clothesId.hair);
 
     // Hat
-    this.sprite.hat = this.phaser.add.image(x, y, this.spritesheet).setScale(10);
+    this.sprite.hat = this.phaser.add.image(x, y, this.spritesheet).setScale(this.scale);
     this.sprite.hat.setFrame(this.clothesId.hat);
 
     // Shield
-    this.sprite.shield = this.phaser.add.image(x, y, this.spritesheet).setScale(10);
+    this.sprite.shield = this.phaser.add.image(x, y, this.spritesheet).setScale(this.scale);
     this.sprite.shield.setFrame(this.clothesId.shield);
 
     // Weapon
-    this.sprite.weapon = this.phaser.add.image(x, y, this.spritesheet).setScale(10);
+    this.sprite.weapon = this.phaser.add.image(x, y, this.spritesheet).setScale(this.scale);
     this.sprite.weapon.setFrame(this.clothesId.weapon);
   }
 
