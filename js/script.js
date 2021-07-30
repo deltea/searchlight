@@ -25,7 +25,7 @@ const config = {
       // Options
       enableBody: true,
       // NOTE: Uncomment the following line to enable debug mode
-      // debug: true
+      debug: true
     }
   },
 

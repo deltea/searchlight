@@ -8,6 +8,6 @@ function create() {
     hair: 20,
     hat: 29,
     shield: 39,
-    weapon: 52
+    weapon: 51
   }, "characters", "normal", game.characters, this);
 }
