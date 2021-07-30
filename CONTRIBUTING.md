@@ -44,12 +44,12 @@ Please use the *Feature Request* issue template. Also be sure to add appropriate
 ### Bug Report
 Use the *Bug Report* template.
 
-## Linters
-I installed a linter called JSHint. You can run the linter by typing into the terminal:
+## Task Runners
+I have installed a task runner called Grunt. You can run it by typing into the terminal:
 ```
-node_modules/.bin/jshint js
+node_modules/.bin/grunt
 ```
-P.S. Ignore the ES6 issues
+This will automatically run JSHint
 
 ## Pull Requests
 After I have approved your issue, you may create a pull request. I will review it and merge it. I have installed a Code Quality check, so **the check fails, I will not review the request.**
