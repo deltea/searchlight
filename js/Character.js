@@ -10,6 +10,7 @@ class Character {
     this.type = type;
 
     // An array of where the clothes are in the spritesheet
+    // NOTE: In the character spritesheet, the length is 54 frames
     this.clothesId = clothesId;
 
     // The spritesheet to look in
