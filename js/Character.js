@@ -43,15 +43,14 @@ class Character {
 
     // The skin color
     this.sprite.setFrame(this.clothesId.skin);
-    console.log(this.clothesId.skin);
 
     // Create the clothes
     // Pants
-    this.sprite.pants = this.phaser.add.image(x, y, this.spritesheet).setScale(this.scale);
+    this.sprite.pants = this.phaser.add.image(x - 10, y, this.spritesheet).setScale(this.scale);
     this.sprite.pants.setFrame(this.clothesId.pants);
 
     // Shirt
-    this.sprite.shirt = this.phaser.add.image(x - 2, y + 3, this.spritesheet).setScale(this.scale);
+    this.sprite.shirt = this.phaser.add.image(x - 9, y + 3, this.spritesheet).setScale(this.scale);
     this.sprite.shirt.setFrame(this.clothesId.shirt);
 
     // Hair

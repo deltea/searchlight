@@ -14,6 +14,11 @@ const config = {
     mode: Phaser.Scale.RESIZE,
   },
 
+  // Rendering options
+  render: {
+    pixelArt: true
+  },
+
   // Arcade physics
   physics: {
     default: "arcade",
