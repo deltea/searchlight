@@ -50,11 +50,11 @@ class Character {
     this.sprite.pants.setFrame(this.clothesId.pants);
 
     // Shirt
-    this.sprite.shirt = this.phaser.add.image(x - 9, y + 3, this.spritesheet).setScale(this.scale);
+    this.sprite.shirt = this.phaser.add.image(x - 3, y + 5, this.spritesheet).setScale(this.scale);
     this.sprite.shirt.setFrame(this.clothesId.shirt);
 
     // Hair
-    this.sprite.hair = this.phaser.add.image(x, y, this.spritesheet).setScale(this.scale);
+    this.sprite.hair = this.phaser.add.image(x - 10, y, this.spritesheet).setScale(this.scale);
     this.sprite.hair.setFrame(this.clothesId.hair);
 
     // Hat
