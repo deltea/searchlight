@@ -1,6 +1,6 @@
 {
   "name": "lighthouse",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Lighthouse is a bird's-eye view video game inspired by MoPOP in Seattle. The player has to track down of the listed targets in the dark, with only a short range flashlight.",
   "homepage": "https://thcheetah777.github.io/lighthouse/",
   "main": "js/script.js",
@@ -21,10 +21,14 @@
   "bugs": {
     "url": "https://github.com/thcheetah777/searchlight/issues/new?assignees=&labels=bug%2C+help+wanted&template=bug_report.md&title=BUG%3A+"
   },
+  "scripts": {
+    "test": "mocha"
+  },
   "devDependencies": {
     "grunt": "^1.4.1",
     "grunt-cli": "^1.4.3",
     "grunt-contrib-jshint": "^3.0.0",
-    "jshint": "^2.13.1"
+    "jshint": "^2.13.1",
+    "mocha": "^9.0.3"
   }
 }
