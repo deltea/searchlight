@@ -39,7 +39,7 @@ abilities: {
 
 ## Reports
 ### Feature Request
-Please use the *Feature Request* issue template. Also be sure to add appropriate labels.
+Please use the *Feature Request* issue template. Also, be sure to add appropriate labels.
 
 ### Bug Report
 Use the *Bug Report* template.
@@ -49,11 +49,11 @@ I have installed a task runner called Grunt. You can run it by typing into the t
 ```
 node_modules/.bin/grunt
 ```
-This will automatically run JSHint
+This command will automatically run JSHint.
 
 ## Pull Requests
-After I have approved your issue, you may create a pull request. I will review it and merge it. I have installed a Code Quality check, so **the check fails, I will not review the request.**
-Also make sure to add a ```Reset``` commit to disable debug mode and reset abilities, and a ```Fix JSHint issues``` commit to fix the JSHint linter issues, other than the ES6 issues.
+After I have approved your issue, you may create a pull request. I will review it and merge it. I have installed a Code Quality check, so **the check fails, I will not review the PR.**
+Also, make sure to add a ```Reset``` commit to disable developer mode and reset abilities, and a ```Fix JSHint issues``` commit to fix the JSHint linter issues, other than the ES6 issues.
 
 ## Code of Conduct
 More details in CODE_OF_CONDUCT.md.

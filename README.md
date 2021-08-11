@@ -1,12 +1,12 @@
 # :flashlight: Searchlight (Not finished)
 
-Lighthouse, Inspired by [Hidden Folks](https://hiddenfolks.com/) in a exhibit of independent video games at [MoPop (Seattle)](https://www.mopop.org/)
+Lighthouse, Inspired by [Hidden Folks](https://hiddenfolks.com/) in an exhibit of independent video games at [MoPop (Seattle)](https://www.mopop.org/)
 
 **Live Demo:** [thcheetah777.github.io/searchlight](https://thcheetah777.github.io/searchlight/)
 
 ## Description
 
-Lighthouse is a bird's-eye view video game. The player has to track down of the listed targets in the dark, with only a short range flashlight. The player can eat powerups to make his flashlight range wider. The player can also chop down trees to look behind them.
+Lighthouse is a bird's-eye view video game. The player has to track down the listed targets in the dark, with only a short-range flashlight. The player can eat powerups to make his flashlight range wider. The player can also chop down trees to look behind them.
 
 ## Getting Started
 
