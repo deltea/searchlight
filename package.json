@@ -21,12 +21,10 @@
   "bugs": {
     "url": "https://github.com/thcheetah777/searchlight/issues/new?assignees=&labels=bug%2C+help+wanted&template=bug_report.md&title=BUG%3A+"
   },
-  "dependencies": {
-    "grunt-cli": "^1.4.3",
-    "jshint": "^2.13.0"
-  },
   "devDependencies": {
     "grunt": "^1.4.1",
-    "grunt-contrib-jshint": "^3.0.0"
+    "grunt-cli": "^1.4.3",
+    "grunt-contrib-jshint": "^3.0.0",
+    "jshint": "^2.13.1"
   }
 }
